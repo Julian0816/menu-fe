@@ -12,6 +12,8 @@ type ShoppingBasketProps = {
 
 export function ShoppingBasket ({ isOpen}: ShoppingBasketProps) {
     const { closeBasket, basketItems } = useMenuBasket()
+
+
     return <Offcanvas show={isOpen} onHide={closeBasket} placement="end">
         <Offcanvas.Header closeButton>
             <Offcanvas.Title>Cart</Offcanvas.Title>
