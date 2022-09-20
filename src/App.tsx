@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import { Home } from './pages/Home'
 import { Menu } from './pages/Menu'
-import { About } from './pages/About'
+import { BackOfHouse } from './pages/BackOfHouse'
 import { Navbar } from './components/Navbar'
 import { MenuBasketProvider } from "./context/MenuBasketContext"
 
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/menu" element={<Menu />}/>
-          <Route path="/about" element={<About />}/>
+          <Route path="/backOfHouse" element={<BackOfHouse />}/>
         </Routes>
       </Container>
     </MenuBasketProvider>
