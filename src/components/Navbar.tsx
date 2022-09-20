@@ -15,7 +15,7 @@ export function Navbar () {
                         Menu
                     </Nav.Link>
                     <Nav.Link to='/backOfHouse' as={NavLink}>
-                        Back Of House
+                        My Orders
                     </Nav.Link>
                 </Nav>
                 {basketQuantity > 0 && (
