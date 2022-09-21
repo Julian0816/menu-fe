@@ -12,6 +12,8 @@ react-router-dom
 ## For Styling
 bootstrap and react-bootstrap
 
+# To start the server please:
+
 ## Install your node_modules
 npm install
 
