@@ -1,11 +1,37 @@
 import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
 import { useMenuBasket } from '../context/MenuBasketContext';
+import { useEffect, useState } from 'react';
 
 
 
 export function BackOfHouse () {
     const { closeBasket, basketItems } = useMenuBasket()
+    const [orders, setOrders] = useState<any>([])
+
+    const getAllOrders = async () => {
+      const res = await fetch('http://localhost:3001/api/order', {method: 'GET'})
+      const data = await res.json();
+      console.log(data);
+      
+      data.map(async ({id, items, total})=>  {
+        const products = [];
+        const productItems = items.split('}');
+        productItems.map( async (e) => {
+          let element = e + '}';
+          element = await JSON.parse(element)
+          // console.log(element)
+          // products.push(element)
+          return element;
+        })
+        console.log(productItems);
+      })
+    };
+
+    useEffect(() => {
+      getAllOrders();
+    },[])
+
     return (
         <>
             <h1 style={{color: "white"}}>Orders</h1>

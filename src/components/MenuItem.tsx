@@ -7,14 +7,14 @@ type MenuItemProps = {
     name: string
     price: number
     decription: string
-    image: string
+    imagen: string
 }
 
-export function MenuItem ({id, name, price, decription, image}: MenuItemProps) {
+export function MenuItem ({id, name, price, decription, imagen}: MenuItemProps) {
     const { getItemQuantity, increaseBasketQuantity, decreaseBasketQuantity, removeFromBasket } = useMenuBasket()
     const quantity = getItemQuantity(id)
     return <Card className='h-100'>
-                <Card.Img variant='top' src={image} height="200spx" style={{ objectFit: "cover"}} />
+                <Card.Img variant='top' src={imagen} height="200spx" style={{ objectFit: "cover"}} />
                 <Card.Body className='d-flex flex-column'>
                     <Card.Title className='d-flex justify-content-between align-items-baseline mb-4' >
                         <span className='fs-2'>{name}</span>
