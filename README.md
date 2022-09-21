@@ -12,7 +12,10 @@ react-router-dom
 ## For Styling
 bootstrap and react-bootstrap
 
-# To run de server
+## Install your node_modules
+npm install
+
+## To run de server
 npm run dev
 
 
