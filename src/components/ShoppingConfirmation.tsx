@@ -12,7 +12,7 @@ export function ShoppingConfirmation (props: any) {
         <>
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>Save changes to pay</Modal.Title>
+              <Modal.Title>Confirm to place your order</Modal.Title>
             </Modal.Header>
             <Modal.Body>Enjoy your meal</Modal.Body>
             <Modal.Footer>
@@ -20,7 +20,7 @@ export function ShoppingConfirmation (props: any) {
                 Close
               </Button>
               <Button variant='warning' onClick={handleClose}>
-            Save Changes
+            Confirm
           </Button>
         </Modal.Footer>
       </Modal>

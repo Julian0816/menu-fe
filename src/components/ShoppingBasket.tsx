@@ -45,7 +45,7 @@ export function ShoppingBasket ({ isOpen}: ShoppingBasketProps) {
                 </div>
             </Stack>
             <Button variant='warning' className='w-100' onClick={confirmationOrder}>
-                Confirm your order
+                Check out
             </Button>
         </Offcanvas.Body> 
         {openModal && <ShoppingConfirmation open={openModal}/>}
