@@ -7,13 +7,11 @@ import { Item } from '../models/menu.model';
 
 export function Menu () {
   const [menulist, setMenuList] = useState<Item[]>([]);
-  //
-  
   
   
       useEffect(() => {
         const request = async()=>{
-          const response = await fetch('http://localhost:3001/api/menu/items/'); //Connection to BE
+          const response = await fetch('http://localhost:8080/api/menu/items/'); //Connection to BE
         const menuRequest = await response.json();
         menuRequest ? setMenuList(menuRequest) : setMenuList([]);
       }
@@ -32,5 +30,3 @@ export function Menu () {
     )
 }
 
-
-//

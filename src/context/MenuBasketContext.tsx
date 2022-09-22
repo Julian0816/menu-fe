@@ -43,6 +43,7 @@ export function MenuBasketProvider ({ children }: MenuBasketProviderProps) {
     const [isOpen, setIsOpen] = useState(false)
     const [basketItems, setBasketItems] = useLocalStorage<BasketItem[]>("Shopping-basket",[])
     
+    console.log(basketItems);
     const basketQuantity = basketItems.reduce(
         (quantity, item) => item.quantity + quantity, 0
     )
@@ -58,6 +59,7 @@ export function MenuBasketProvider ({ children }: MenuBasketProviderProps) {
     function increaseBasketQuantity(id: number) {
         setBasketItems(currItems => {
           if (currItems.find(item => item.id === id) == null) {
+            console.log(currItems);
             return [...currItems, { id, quantity: 1 }]
           } else {
             return currItems.map(item => {

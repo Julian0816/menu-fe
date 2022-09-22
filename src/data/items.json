@@ -1,86 +1,110 @@
 [
     {
-        "id": 1,
+        "id": "200b5c0f-ec8b-4796-8a17-a36e10158499",
         "name": "1/2 chicken",
-        "price": 13.00,
-        "decription": "One breast and one leg, flame-grilled and infused with PERi-PERi. Served on the bone with crispy skin, in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/1-2-chicken-12.Image-16-9.093606.jpg"
+        "description": "One breast and one leg, flame-grilled and infused with PERi-PERi. Served on the bone with crispy skin, in your choice of spice.",
+        "price": 13,
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/1-2-chicken-12.Image-16-9.093606.jpg",
+        "createdAt": "2022-09-19T21:57:56.365Z",
+        "updatedAt": "2022-09-19T21:57:56.365Z"
     },
     {
-        "id": 2,
-        "name": "Chicken Burger",
-        "price": 12.00,
-        "decription": "Chicken breast infused with PERi-PERi and grilled to your favourite spice. Served in a Portuguese Roll with Lemon & Herb mayo, lettuce, tomato and PERi-Ketchup.",
-        "image": "https://images.menu.nandos.dev/uk/burgers-pittas-wraps/640x360/grilled-chicken-burger-27.Image-16-9.095548.jpg"
-    },
-    {
-        "id": 3,
+        "id": "e541fe9c-6972-4318-b499-96d74732287d",
         "name": "5 Chicken wings",
+        "description": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served in your choice of spice.",
         "price": 11.25,
-        "decription": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/5-chicken-wings-16.Image-16-9.094139.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/5-chicken-wings-16.Image-16-9.094139.jpg",
+        "createdAt": "2022-09-21T19:44:36.740Z",
+        "updatedAt": "2022-09-21T19:44:36.740Z"
     },
     {
-        "id": 4,
+        "id": "4eed3c25-8b58-4256-bb7d-33d19d8ca499",
+        "name": "Chicken Burger",
+        "description": "Chicken breast infused with PERi-PERi and grilled to your favourite spice. Served in a Portuguese Roll with Lemon & Herb mayo, lettuce, tomato and PERi-Ketchup.",
+        "price": 12,
+        "imagen": "https://images.menu.nandos.dev/uk/burgers-pittas-wraps/640x360/grilled-chicken-burger-27.Image-16-9.095548.jpg",
+        "createdAt": "2022-09-22T00:01:51.501Z",
+        "updatedAt": "2022-09-22T00:01:51.501Z"
+    },
+    {
+        "id": "3a3bcbc7-4830-40b8-97f3-225ed428f237",
         "name": "Chicken Butterfly",
+        "description": "Two chicken breasts, flame-grilled with crispy skin. Infused with PERi-PERi and served in your choice of spice.",
         "price": 13.25,
-        "decription": "Two chicken breasts, flame-grilled with crispy skin. Infused with PERi-PERi and served in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/chicken-butterfly-10.Image-16-9.093328.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/chicken-butterfly-10.Image-16-9.093328.jpg",
+        "createdAt": "2022-09-22T00:02:43.369Z",
+        "updatedAt": "2022-09-22T00:02:43.369Z"
     },
     {
-        "id": 5,
+        "id": "7e4646b4-4131-4c64-87cd-3e0b8d1e19de",
         "name": "4 Boneless Thighs",
+        "description": "Flame-grilled with crispy skin. Infused with PERi-PERi and served in your choice of spice.",
         "price": 13.25,
-        "decription": "Flame-grilled with crispy skin. Infused with PERi-PERi and served in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/4-boneless-chicken-thighs-11.Image-16-9.093514.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/4-boneless-chicken-thighs-11.Image-16-9.093514.jpg",
+        "createdAt": "2022-09-22T00:03:22.619Z",
+        "updatedAt": "2022-09-22T00:03:22.619Z"
     },
     {
-        "id": 6,
+        "id": "d861f2a1-2b1c-40cd-ba2f-36a6f7390712",
         "name": "1/4 Chicken",
-        "price": 9.50,
-        "decription": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served on the bone with crispy skin, in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/1-4-chicken-13.Image-16-9.093758.jpg"
+        "description": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served on the bone with crispy skin, in your choice of spice.",
+        "price": 9.5,
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/1-4-chicken-13.Image-16-9.093758.jpg",
+        "createdAt": "2022-09-22T00:03:52.294Z",
+        "updatedAt": "2022-09-22T00:03:52.294Z"
     },
     {
-        "id": 7,
+        "id": "fd3f4442-d01e-43e4-b362-2d73a79de0e2",
         "name": "Whole Chicken",
+        "description": "Flame-grilled, infused with PERi-PERi and served in your choice of spice. Cut into quarters and perfect with sides, it's great for sharing!",
         "price": 14.95,
-        "decription": "Flame-grilled, infused with PERi-PERi and served in your choice of spice. Cut into quarters and perfect with sides, it's great for sharing!",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/whole-chicken-14.Image-16-9.094004.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/whole-chicken-14.Image-16-9.094004.jpg",
+        "createdAt": "2022-09-22T00:04:20.058Z",
+        "updatedAt": "2022-09-22T00:04:20.058Z"
     },
     {
-        "id": 8,
+        "id": "42d9b4f8-7f04-4f0c-aa12-f52e9f669553",
         "name": "Livers & Roll",
-        "price": 13.00,
-        "decription": "Try something different! Chicken livers cooked in our special sauce, served with a Portuguese roll.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/chicken-livers-portuguese-roll-15.Image-16-9.182858.jpg"
+        "description": "Try something different! Chicken livers cooked in our special sauce, served with a Portuguese roll.",
+        "price": 13,
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/chicken-livers-portuguese-roll-15.Image-16-9.182858.jpg",
+        "createdAt": "2022-09-22T00:04:54.246Z",
+        "updatedAt": "2022-09-22T00:04:54.246Z"
     },
     {
-        "id": 9,
+        "id": "16531a53-7a66-4f44-bce4-e55bd4911d2d",
         "name": "3 Chicken Wings",
+        "description": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served in your choice of spice.",
         "price": 9.25,
-        "decription": "Flame-grilled, infused with PERi-PERi and perfect for pairing with sides. Served in your choice of spice.",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/3-chicken-wings-15.Image-16-9.094057.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/3-chicken-wings-15.Image-16-9.094057.jpg",
+        "createdAt": "2022-09-22T00:05:24.029Z",
+        "updatedAt": "2022-09-22T00:05:24.029Z"
     },
     {
-        "id": 10,
+        "id": "93bcebe8-5c60-4c19-b179-cb39f409d7f4",
         "name": "10 Chicken Wings",
+        "description": "Flame-grilled with crispy skin and great for sharing!",
         "price": 16.25,
-        "decription": "Flame-grilled with crispy skin and great for sharing!",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/10-chicken-wings-17.Image-16-9.094243.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/10-chicken-wings-17.Image-16-9.094243.jpg",
+        "createdAt": "2022-09-22T00:05:56.183Z",
+        "updatedAt": "2022-09-22T00:05:56.183Z"
     },
     {
-        "id": 11,
+        "id": "4aa31e94-9d2d-44e3-8e90-ea1f337a69f8",
         "name": "15 Chicken Wings",
+        "description": "Bigger is always better. A feast that’s great for sharing!",
         "price": 14.95,
-        "decription": "Bigger is always better. A feast that’s great for sharing!",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/15-chicken-wings-18.Image-16-9.094348.jpg"
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/15-chicken-wings-18.Image-16-9.094348.jpg",
+        "createdAt": "2022-09-22T00:06:30.867Z",
+        "updatedAt": "2022-09-22T00:06:30.867Z"
     },
     {
-        "id": 12,
+        "id": "38a6da7e-cf1a-4e83-951c-81b4f72c9058",
         "name": "10 Wing Roulette",
-        "price": 11.50,
-        "decription": "Can't decide on your spice? Tuck in to 10 wings with various heat levels (it's not for the faint-hearted!).",
-        "image": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/10-wing-roulette-19.Image-16-9.094421.jpg"
+        "description": "Can't decide on your spice? Tuck in to 10 wings with various heat levels (it's not for the faint-hearted!).",
+        "price": 11.5,
+        "imagen": "https://images.menu.nandos.dev/uk/pe-ri-pe-ri-chicken/640x360/10-wing-roulette-19.Image-16-9.094421.jpg",
+        "createdAt": "2022-09-22T00:07:07.784Z",
+        "updatedAt": "2022-09-22T00:07:07.784Z"
     }
 ]

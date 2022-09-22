@@ -1,5 +1,5 @@
 import { Button, Stack } from "react-bootstrap"
-import { useMenuBasket } from "../context/MenuBasketContext"
+import { useMenuBasket } from '../context/MenuBasketContext';
 import menuItems from '../data/items.json'
 import { formatCurrency } from "../utilities/formatCurrency"
 
@@ -9,6 +9,7 @@ type BasketItemProps = {
 }
 
 export function BasketItem({id, quantity}: BasketItemProps) {
+  
     const { removeFromBasket} = useMenuBasket()
     const item = menuItems.find(i => i.id === id)
     if (item == null) return null
