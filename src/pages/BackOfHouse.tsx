@@ -45,7 +45,7 @@ export function BackOfHouse() {
           <ListGroup.Item key={index}>
             <Card style={{ width: '60rem' }}>
               <Card.Body>
-                <Card.Title>No order:{id}</Card.Title>
+                <Card.Title>Order number:{id}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Total price: {`£ ${total}`}</Card.Subtitle>
                 {JSON.parse('[' + items + ']').map(({ quatities }) => (
                   <Card.Text>{quatities}</Card.Text>
